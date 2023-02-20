@@ -9,5 +9,14 @@
 
     <artifactId>algorithm</artifactId>
     <name>algorithm</name>
+
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
     <packaging>jar</packaging>
 </project>

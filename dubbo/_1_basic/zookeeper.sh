@@ -1,0 +1,1 @@
+docker run -itd --restart=always --name my-zookeeper -p 2181:2181 zookeeper:3.8.1
