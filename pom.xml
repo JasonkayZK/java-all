@@ -21,6 +21,7 @@
     <module>classloader</module>
     <module>spring</module>
     <module>dubbo</module>
+    <module>concurrency</module>
   </modules>
 
   <properties>
