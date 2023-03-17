@@ -19,6 +19,7 @@
         <module>volatile</module>
         <module>synchronized-lock</module>
         <module>count-down-latch</module>
+        <module>completable-future</module>
     </modules>
 
 </project>
