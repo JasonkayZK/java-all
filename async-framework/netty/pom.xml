@@ -5,16 +5,11 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>io.github.jasonkayzk</groupId>
-        <artifactId>java-all</artifactId>
+        <artifactId>async-framework</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>async-framework</artifactId>
-    <packaging>pom</packaging>
-    <modules>
-        <module>rxjava</module>
-        <module>netty</module>
-    </modules>
+    <artifactId>netty</artifactId>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
