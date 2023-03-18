@@ -23,6 +23,7 @@
         <module>dubbo3</module>
         <module>dubbo2</module>
         <module>concurrency</module>
+        <module>async-framework</module>
     </modules>
 
     <properties>
