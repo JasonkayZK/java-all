@@ -20,7 +20,8 @@
         <module>algorithm</module>
         <module>classloader</module>
         <module>spring</module>
-        <module>dubbo</module>
+        <module>dubbo3</module>
+        <module>dubbo2</module>
         <module>concurrency</module>
     </modules>
 

@@ -7,14 +7,10 @@
         <groupId>io.github.jasonkayzk</groupId>
         <artifactId>java-all</artifactId>
         <version>1.0-SNAPSHOT</version>
-        <relativePath>../../pom.xml</relativePath>
     </parent>
 
-    <artifactId>_1_basic</artifactId>
+    <artifactId>dubbo2</artifactId>
     <packaging>pom</packaging>
-    <modules>
-        <module>_0-dubbo-samples-api</module>
-    </modules>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
