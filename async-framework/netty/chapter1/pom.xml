@@ -5,28 +5,21 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>io.github.jasonkayzk</groupId>
-        <artifactId>async-framework</artifactId>
+        <artifactId>netty</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>netty</artifactId>
-    <packaging>pom</packaging>
-    <modules>
-        <module>chapter1</module>
-    </modules>
+    <artifactId>chapter1</artifactId>
+    <packaging>jar</packaging>
+    <name>Chapter 1. Netty—asynchronous and event-driven</name>
+    <description>
+        Build an Echo Server and Client
+    </description>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
-
-    <dependencies>
-        <dependency>
-            <groupId>io.netty</groupId>
-            <artifactId>netty-all</artifactId>
-            <version>4.1.89.Final</version>
-        </dependency>
-    </dependencies>
 
 </project>
