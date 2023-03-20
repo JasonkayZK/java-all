@@ -24,6 +24,7 @@
         <module>dubbo2</module>
         <module>concurrency</module>
         <module>async-framework</module>
+        <module>cli</module>
     </modules>
 
     <properties>
