@@ -13,6 +13,9 @@
     <packaging>pom</packaging>
     <modules>
         <module>a-hello-dubbo-xml</module>
+        <module>b-hello-dubbo-api</module>
+        <module>c-hello-dubbo-annotation</module>
+        
         <module>demo-service-interface</module>
     </modules>
 
