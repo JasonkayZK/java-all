@@ -15,8 +15,9 @@
         <module>a-hello-dubbo-xml</module>
         <module>b-hello-dubbo-api</module>
         <module>c-hello-dubbo-annotation</module>
-        
+
         <module>demo-service-interface</module>
+        <module>d-hello-dubbo-yaml</module>
     </modules>
 
     <properties>
