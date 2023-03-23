@@ -27,3 +27,10 @@ $ docker-compose up -d
  ⠿ Container zookeeper             Started           0.5s
  ⠿ Container dubbo-admin           Started           0.7s
 ```
+
+<br/>
+
+# **Related Blogs**
+
+- [《Dubbo的几种配置方式总结》](https://jasonkayzk.github.io/2023/03/23/Dubbo的几种配置方式总结/)
+
