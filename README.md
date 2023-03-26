@@ -27,5 +27,9 @@ A repository to re-organize Java.
   - Picocli
 - **Dubbo2**
 - **Dubbo3**
+- **MySQL**
+  - Binlog
+    - binlog-connector
+    - canal
 - **Spring:**
   - SpringJPA & MySQL
