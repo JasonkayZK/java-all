@@ -43,14 +43,14 @@ public class UserCache extends BaseCaffeineCacheConfig {
      */
     public Object getValue(Object key) {
         String[] param = ((String) key).split(Constants.SPLIT_STR);
-        return getUnit(param[0], param[1]);
+        return getUser(param[0], param[1]);
     }
 
     @Cacheable(value = "UserCache",
-            key = "#username + T(io.github.jasonkayzk.consts.Constants).SPLIT_STR + #userId",
-            condition = "#username != 'root'")
-    public User getUnit(String username, String userId) {
-        if (Objects.equals(userId, "1") && Objects.equals(username, "admin")) {
+            key = "#userType + T(io.github.jasonkayzk.consts.Constants).SPLIT_STR + #userId",
+            condition = "#userType != 'root'")
+    public User getUser(String userType, String userId) {
+        if ("1".equals(userId) && "admin".equals(userType)) {
             return new User("1", "admin", "admin-password");
         } else {
             return new User("999", "visitor", "no-password");
@@ -58,9 +58,9 @@ public class UserCache extends BaseCaffeineCacheConfig {
     }
 
     @CacheEvict(value = "UserCache",
-            key = "#username + T(io.github.jasonkayzk.consts.Constants).SPLIT_STR + #userId",
-            condition = "#username != 'root'")
-    public void deleteUnit(String username, String userId) {
+            key = "#userType + T(io.github.jasonkayzk.consts.Constants).SPLIT_STR + #userId",
+            condition = "#userType != 'root'")
+    public void deleteUser(String userType, String userId) {
     }
 
 }
