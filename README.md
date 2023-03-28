@@ -13,6 +13,8 @@ A repository to re-organize Java.
 - **Async Framework:**
   - Netty
   - RxJava
+- **Cache**
+  - Caffeine
 - **ClassLoader**
 - **Concurrency:**
   - DeadLock

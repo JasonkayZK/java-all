@@ -26,6 +26,7 @@
         <module>async-framework</module>
         <module>cli</module>
         <module>mysql</module>
+        <module>cache</module>
     </modules>
 
     <properties>
