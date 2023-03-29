@@ -27,6 +27,7 @@
         <module>cli</module>
         <module>mysql</module>
         <module>cache</module>
+        <module>mq</module>
     </modules>
 
     <properties>
