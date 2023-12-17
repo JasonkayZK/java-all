@@ -1,37 +1,9 @@
-# **Java All**
+# Spring Boot 3
 
-A repository to re-organize Java.
+Spring released Spring Boot 3.x, which needs JDK 17+.
 
+A branch to show how to use Spring Boot 3.x.
 
-# **Project List**
+Project List:
 
-- **Algorithm:**
-  - Collection
-    - LinkedList
-  - Sort
-    - QuickSort
-- **Async Framework:**
-  - Netty
-  - RxJava
-- **Cache**
-  - Caffeine
-- **ClassLoader**
-- **Concurrency:**
-  - DeadLock
-  - Volatile
-  - Synchronized & Lock
-  - Singleton
-  - ThreadPool
-  - CompletableFuture
-  - CountDownLatch
-  - ProducerConsumer
-- **CommandLine Interface**
-  - Picocli
-- **Dubbo2**
-- **Dubbo3**
-- **MySQL**
-  - Binlog
-    - binlog-connector
-    - canal
-- **Spring:**
-  - SpringJPA & MySQL
+- [hello-web](hello-web/): a hello-world level web application
