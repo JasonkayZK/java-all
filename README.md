@@ -5,7 +5,7 @@ A repository to re-organize Java.
 
 # **Project List**
 
-[Main Branch](https://github.com/JasonkayZK/java-all/tree/main): JDK-8
+[Main Branch(JDK-8)](https://github.com/JasonkayZK/java-all/tree/main):
 
 - **Algorithm:**
   - Collection
@@ -38,7 +38,8 @@ A repository to re-organize Java.
 - **Spring:**
   - SpringJPA & MySQL
 
+<br/>
+
 Other Branches:
 
-- [Spring-Boot-3 Branch](https://github.com/JasonkayZK/java-all/tree/spring-boot-3): JDK-21
-
+- [Spring-Boot-3 Branch(JDK-21)](https://github.com/JasonkayZK/java-all/tree/spring-boot-3)
